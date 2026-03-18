@@ -1,0 +1,58 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" fill="#040814"/>
+
+  <g opacity="0.12" stroke="#173050">
+    <path d="M0 0H1200"/>
+    <path d="M0 140H1200"/>
+    <path d="M0 280H1200"/>
+    <path d="M0 420H1200"/>
+    <path d="M0 560H1200"/>
+    <path d="M0 700H1200"/>
+    <path d="M0 0V700"/>
+    <path d="M150 0V700"/>
+    <path d="M300 0V700"/>
+    <path d="M450 0V700"/>
+    <path d="M600 0V700"/>
+    <path d="M750 0V700"/>
+    <path d="M900 0V700"/>
+    <path d="M1050 0V700"/>
+    <path d="M1200 0V700"/>
+  </g>
+
+  <g transform="translate(300 40)">
+    <path d="M300 20L500 92V326L300 474L100 326V92L300 20Z" stroke="#D6E5FF" stroke-width="10"/>
+    <path d="M300 48L473 110V314L300 442L127 314V110L300 48Z" stroke="#5EA0FF" stroke-width="4" opacity="0.9"/>
+
+    <text x="170" y="150" fill="#D6E5FF" font-size="34" font-family="Arial, sans-serif" font-weight="700" letter-spacing="4">EST.</text>
+    <text x="392" y="150" fill="#D6E5FF" font-size="34" font-family="Arial, sans-serif" font-weight="700" letter-spacing="4">2022</text>
+
+    <g fill="#5EA0FF">
+      <path d="M250 118L265 145L235 140L250 118Z"/>
+      <path d="M300 96L320 134L279 129L300 96Z"/>
+      <path d="M350 118L365 145L335 140L350 118Z"/>
+    </g>
+
+    <g fill="#5EA0FF">
+      <path d="M168 210C182 202 210 203 226 214L213 228H180L168 210Z"/>
+      <path d="M432 210C418 202 390 203 374 214L387 228H420L432 210Z"/>
+      <path d="M220 205C252 160 349 152 386 205L343 205C332 191 313 183 292 183C271 183 252 191 241 205H220Z"/>
+      <path d="M195 236H257L221 274H178L195 236Z"/>
+      <path d="M405 236H343L379 274H422L405 236Z"/>
+      <path d="M230 219H370L390 255V322H349V292H251V322H210V255L230 219Z"/>
+      <path d="M247 238C260 228 278 223 300 223C322 223 340 228 353 238L339 255H261L247 238Z"/>
+      <rect x="226" y="270" width="50" height="14" rx="7"/>
+      <rect x="324" y="270" width="50" height="14" rx="7"/>
+      <path d="M210 322H270L236 348H184L210 322Z"/>
+      <path d="M390 322H330L364 348H416L390 322Z"/>
+    </g>
+
+    <path d="M160 520H440" stroke="#5EA0FF" stroke-width="4"/>
+    <path d="M300 520L440 520L416 536H184L160 520H300Z" fill="#5EA0FF"/>
+    <path d="M300 548L396 548L384 557H216L204 548H300Z" fill="#8FBCFF"/>
+    <path d="M300 571L368 571L358 579H242L232 571H300Z" fill="#8FBCFF"/>
+  </g>
+
+  <text x="600" y="610" fill="#D6E5FF" font-size="74" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle" letter-spacing="6">
+    NOAH'S MOBILE DETAILING
+  </text>
+</svg>
