@@ -122,11 +122,12 @@ export function PackageComparison() {
       <div className="hidden md:block overflow-x-auto">
         <div className="grid grid-cols-4 gap-4 min-w-[800px]">
           {/* Header Column */}
-          <div className="pt-0">
-            <div className="h-[258px] flex items-end pb-6 px-2">
+          <Card className="border-2 border-transparent bg-transparent shadow-none rounded-2xl">
+            <CardHeader className="h-[240px] flex flex-col justify-end pb-6 pt-4 px-2 lg:px-6">
               <h3 className="font-semibold text-lg">Features</h3>
-            </div>
-            <div className="space-y-3">
+            </CardHeader>
+            <CardContent className="pt-4 px-2 lg:px-6">
+              <div className="space-y-3">
               <div className="h-12 flex items-center text-sm font-medium border-b">
                 Full detail inside and out
               </div>
@@ -157,7 +158,8 @@ export function PackageComparison() {
               <div className="h-12 flex items-center text-sm font-medium border-b">Vacuum</div>
               <div className="h-12 flex items-center text-sm font-medium">Wipe down</div>
             </div>
-          </div>
+            </CardContent>
+          </Card>
 
           {/* Package Columns */}
           {packages.map((pkg, idx) => {
