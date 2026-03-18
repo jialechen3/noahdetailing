@@ -122,8 +122,8 @@ export function PackageComparison() {
       <div className="hidden md:block overflow-x-auto">
         <div className="grid grid-cols-4 gap-4 min-w-[800px]">
           {/* Header Column */}
-          <div className="space-y-4">
-            <div className="h-48 flex items-end pb-4">
+          <div className="pt-0">
+            <div className="h-[258px] flex items-end pb-6 px-2">
               <h3 className="font-semibold text-lg">Features</h3>
             </div>
             <div className="space-y-3">
@@ -164,7 +164,7 @@ export function PackageComparison() {
             const Icon = pkg.icon;
             return (
               <Card key={idx} className={`border-2 ${pkg.borderColor} relative rounded-2xl overflow-hidden`}>
-                <CardHeader className={`${pkg.bgColor} rounded-t-2xl`}>
+                <CardHeader className={`${pkg.bgColor} rounded-t-2xl h-[240px] flex flex-col justify-end pb-6 pt-4`}>
                   <div className="flex justify-center mb-3">
                     <Icon className={`w-12 h-12 ${pkg.color}`} />
                   </div>
@@ -233,7 +233,7 @@ export function PackageComparison() {
                       ) : idx === 1 ? (
                         <span className="text-green-600 font-semibold">3 months</span>
                       ) : (
-                        <Check className="w-6 h-6 text-green-600" />
+                        <span className="text-gray-400 font-semibold text-xs uppercase tracking-wide">Wax</span>
                       )}
                     </div>
                     {/* Premium wash & wax */}
@@ -241,7 +241,7 @@ export function PackageComparison() {
                       {idx <= 1 ? (
                         <Check className="w-6 h-6 text-green-600" />
                       ) : (
-                        <Check className="w-6 h-6 text-green-600" />
+                        <X className="w-6 h-6 text-gray-300" />
                       )}
                     </div>
                     {/* Shampoo included */}
@@ -258,11 +258,7 @@ export function PackageComparison() {
                     </div>
                     {/* Wipe down */}
                     <div className="h-12 flex items-center justify-center">
-                      {idx === 2 ? (
-                        <Check className="w-6 h-6 text-green-600" />
-                      ) : (
-                        <Check className="w-6 h-6 text-green-600" />
-                      )}
+                      <Check className="w-6 h-6 text-green-600" />
                     </div>
                   </div>
                 </CardContent>
